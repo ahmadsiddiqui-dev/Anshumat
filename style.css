@@ -384,7 +384,7 @@ ul {
   line-height: 1.1;
   overflow: hidden;
   transform: translateY(200px);
-  animation: slideUp 1s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  animation: slideUp 0.7s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
 .hero h3{
     font-size: 80px;
@@ -587,7 +587,7 @@ span.in-view {
   background-color: #bbaa8f;
   overflow: hidden;
   transform: translateY(100%);
-  animation: slideUp 1s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  animation: slideUp 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
 
 @keyframes slideUp {
@@ -906,3 +906,4 @@ span.in-view {
   border-radius: 50%;
   text-decoration: none;
 }
+
