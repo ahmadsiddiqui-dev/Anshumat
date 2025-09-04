@@ -445,6 +445,7 @@ ul {
 
 .sidebar li {
   list-style: none;
+  padding-bottom: 3px;
 }
 
 .close {
@@ -458,7 +459,7 @@ ul {
 .sidebar2 {
   position: absolute;
   left: 20px;
-  top: 200px;
+  bottom: 250px;
   overflow: hidden;
 }
 
