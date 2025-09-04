@@ -907,3 +907,6 @@ span.in-view {
   text-decoration: none;
 }
 
+a, button{
+  -webkit-tap-highlight-color: transparent;
+}
