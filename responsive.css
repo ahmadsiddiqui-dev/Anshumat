@@ -1,0 +1,302 @@
+@media (max-width: 768px){
+  footer{
+    flex-direction: column;
+    gap: 0px;
+    height: 400px;
+  }
+  .socials{
+    padding-top: 30px;
+    height: 0px;
+    margin-bottom: 50px;
+  }
+  footer .socials a{
+    height: 30px;
+  }
+  .footertextdiv{
+    width: 100%;
+  }
+  .footertextdiv ul li a{
+    font-size: 13px;
+  }
+  .footer3{
+    margin-left: 0%;
+    margin-right: 0%;
+    
+  }
+
+  .divf{
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+   /* header */
+  .hideme{
+    display: block;
+  }
+
+  header{
+    padding: 10px 15px;
+  }
+
+  .logo{
+    margin-left: 0px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+  .mblhide{
+    display: none;
+ } 
+  .nav-links {
+    margin-right: -3px;
+  padding-right: 0px !important;
+}
+
+ .abovefooter::before {
+  background-position: top; 
+}
+@keyframes slideleft {
+      from {
+    transform: translatey(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* aboutpage */
+.about h1{
+    font-size: 50px;
+}
+
+.aboutdivide{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    width: 100% !important;
+}
+.about2{
+    width: 100%;
+    align-items: left !important;
+    justify-content: left;
+    padding: 0%;
+    height: 575px !important;
+
+}
+.about2 h3{
+    font-size: 30px !important;
+    width: 95.5% !important;
+
+}
+.aboutbtnp::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 10%;
+  background: #bbaa8f;
+}
+.aboutbtnp.in-view::after {
+  animation: slide-border 1s forwards;
+}
+
+.about2 h5{
+    width: 90%;
+}
+.section {
+  padding: 100px 16px;
+}
+.logo a img{
+  width: 150px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.logo a{
+  margin-left: 0px;
+}
+.about3{
+    flex-direction: column;
+    height: 750px;
+    width: 80%;
+    padding-top: 25px;
+}
+.about32{
+    display: flex;
+    flex-direction: column;
+}
+.about32 img{
+    margin-left: -5px;
+}
+.about33{
+    justify-content: left;
+    padding-left: 20px;
+}
+.imgabout{
+    width: 120%;
+    height: 100%;
+}
+.imgabt{
+    left:-30px;
+}
+.aboutbtnp{
+    padding-bottom: 55px;
+    width: 95.5%;
+}
+
+.hero h3{
+    font-size: 50px;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.hero p{
+    font-size: 20px;
+    width: 100%;
+    margin: 0%;
+    padding-left: 15px;
+}
+.hero .aboutbtnp{
+    padding-left: 15px;
+    padding-top: 40px;
+}
+}
+
+@media (max-width: 1000px){
+    footer{
+    flex-direction: column;
+    gap: 0px;
+    height: 400px;
+  }
+  .socials{
+    padding-top: 30px;
+    height: 0px;
+    margin-bottom: 50px;
+  }
+  footer .socials a{
+    height: 30px;
+  }
+  .footertextdiv{
+    width: 100%;
+    font-size: 10px;
+  }
+   .footertextdiv ul li a{
+    font-size: 13px;
+  }
+
+  .footer3{
+    margin-left: 0%;
+    margin-right: 0%;
+    
+  }
+  /* header */
+
+  header{
+    padding: 10px 15px;
+  }
+  .hideme{
+    display: block;
+  }
+
+    .logo{
+    margin-left: 0px;
+    font-size: 20px;
+}
+ .mblhide{
+    display: none;
+ } 
+
+.nav-links {
+    margin-right: -3px;
+    padding-right: 0px !important;
+}
+
+/* aboutpage */
+/* aboutpage */
+.about h1{
+    font-size: 50px;
+}
+
+.aboutdivide{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 50px;
+    width: 100% !important;
+}
+.about2{
+    width: 100%;
+    align-items: left !important;
+    justify-content: left;
+    padding: 0%;
+    height: 500px;
+
+}
+.about2 h3{
+    font-size: 30px !important;
+    width: 90%;
+
+}
+.about2 h5{
+    width: 90%;
+}
+.section {
+  padding: 80px 16px;
+}
+.logo a img{
+  width: 150px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.logo a{
+  margin-left: 0px;
+}
+.about3{
+    flex-direction: column;
+    height: 750px;
+    width: 80%;
+    padding-top: 25px;
+}
+.about32{
+    display: flex;
+    flex-direction: column;
+}
+.about32 img{
+    margin-left: -5px;
+}
+.about33{
+    justify-content: left;
+    padding-left: 20px;
+}
+.imgabout{
+    width: 120%;
+    height: 100%;
+}
+.imgabt{
+    left:-30px;
+}
+.aboutbtnp{
+    padding-bottom: 55px;
+    width: 95.5%;
+}
+
+.hero h3{
+    font-size: 50px;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.hero p{
+    font-size: 20px;
+    width: 100%;
+    margin: 0%;
+    padding-left: 15px;
+}
+.hero .aboutbtnp{
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+}

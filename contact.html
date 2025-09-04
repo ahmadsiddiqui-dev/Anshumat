@@ -1,0 +1,228 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="page-exit-transition"></div>
+  <div id="page-entry-transition"></div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html"> <img src="logo.png" alt=""></a>
+      </div>
+      <ul class="nav-links">
+        <li class="mblhide"><a href="index.html" class="waah">Home</a></li>
+        <li class="mblhide"><a href="about.html" class="waah">About Us</a></li>
+        <li class="mblhide"><a href="#programs" class="waah">Programs</a></li>
+        <li class="mblhide"><a href="contact.html" style="text-decoration: underline; text-decoration-thickness: 1px;
+            text-underline-offset: 9px; pointer-events: none; color: #341a04;;">Contact</a></li>
+        <li class="mblhide"><a href="register.html" class="waah">Register</a></li>
+        <!-- <li class="mblhide"><a href="register.html" class="btn">Register</a></li> -->
+        <i onclick=showSidebar() class="ri-menu-3-line hideme"></i>
+      </ul>
+      <ul class="sidebar">
+        <a href="index.html"> <img src="logo.png" alt="" style="width: 165px; padding-left: 14px; padding-top: 30px;"></a>
+        <i onclick=hideSidebar() class="ri-close-line close"></i>
+        <div class="sidebar2">
+          <li>
+            <a href="index.html">
+              <span>H</span>
+              <span>0</span>
+              <span>M</span>
+              <span>E</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html">
+              <span>A</span>
+              <span>B</span>
+              <span>O</span>
+              <span>U</span>
+              <span>T</span>
+            </a>
+          </li>
+          <li>
+            <a href="#programs">
+              <span>P</span>
+              <span>R</span>
+              <span>O</span>
+              <span>G</span>
+              <span>R</span>
+              <span>A</span>
+              <span>M</span>
+              <span>S</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="active" style="pointer-events: none; color: #341a04;">
+              <span>C</span>
+              <span>O</span>
+              <span>N</span>
+              <span>T</span>
+              <span>A</span>
+              <span>C</span>
+              <span>T</span>
+            </a>
+          </li>
+          <li>
+            <a href="register.html">
+              <span>R</span>
+              <span>E</span>
+              <span>G</span>
+              <span>I</span>
+              <span>S</span>
+              <span>T</span>
+              <span>E</span>
+              <span>R</span>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+<div class="foroverflow">
+  <div class="about">
+    <h1 style="display: flex; flex-direction: row;">
+      <span>C</span>
+      <span>O</span>
+      <span>N</span>
+      <span>T</span>
+      <span>A</span>
+      <span>C</span>
+      <span>T</span>
+      <span>&nbsp;</span>
+      <span>&nbsp;</span>
+      <span>U</span>
+      <span>S</span>
+    </h1>
+  </div>
+</div>
+  <section id="contact" class="section contact">
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <section class="abovefooter">
+        <div class="div1 divf">
+            <h1 class="fadein">Anshumat <br />Foundation</h1>
+            <p class="fadein">Educate. Employ. Empower.</p>
+            <p class="fadein">
+                Head Office:<br />
+                New Bidhan Polly, Bonsol,Durgapur,<br />
+                West Bengal 713363 India <br />
+                Mail : contact [@] anshumat.org
+            </p>
+        </div>
+        <div class="div2 divf">
+            <h3 class="fadein">Our Foundation</h3>
+            <p class="fadein"><a href="">About us</a></p>
+            <p clas fadein><a href="">Recent Causes</a></p>
+            <p class="fadein"><a href="">Our Volunteers</a></p>
+            <p class="fadein"><a href="">Events</a></p>
+        </div>
+        <div class="div3 divf">
+            <h3 class="fadein">Get Involved</h3>
+            <p class="fadein"><a href="">Become a Volunteer</a></p>
+            <p class="fadein"><a href="">Partner With Us</a></p>
+            <p class="fadein"><a href="">Donate</a></p>
+            <p class="fadein">
+                <a href="">Host an Event</a>
+            </p>
+        </div>
+        <div class="div4 divf">
+            <h3 class="fadein">Resources</h3>
+            <p class="fadein"><a href="">Help Center</a></p>
+            <p class="fadein"><a href="contact.html">Contact Us</a></p>
+            <p class="fadein">
+                <a href="">Donation Method</a>
+            </p>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="socials">
+            <a class="animate" href="#" style="--color: #395693; animation-delay: 0.4s"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a class="animate" href="#" style="--color: #0073af; animation-delay: 0.2s"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a class="animate" href="#" style="--color: #d02443"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footertextdiv">
+            <ul class="fadein">
+                <li style="border-left: 0px solid #e6e6e6">
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li><a href="">Terms & Condtion</a></li>
+                <li><a href="">Legal disclaimer</a></li>
+                <li>
+                    <a href="">Payment, Donation, Cancellation & Refund Policy</a>
+                </li>
+                <li><a href="">IP Rights</a></li>
+            </ul>
+            <p class="forborderbottom fadein">
+                © 2024 - 2025. All rights reserved, Anshumat Foundation.
+                <br />
+                Registered under Section 8 as a Non-Profit Organization.
+            </p>
+            <p class="footerbottom2 fadein">
+                CIN: U88900WB2024NPL275378 || DARPAN Registration: WB/2025/0487412
+                <br />
+                Crafted with ❤️ and dedication to illuminate lives and inspire
+                futures.
+            </p>
+        </div>
+
+        <div class="footer3">
+            <h3>
+                <img src="white-text-logo.png" alt="">
+            </h3>
+        </div>
+    </footer>
+
+  <script src="script.js"></script>
+
+  <script>
+    document
+      .getElementById("contactForm")
+      .addEventListener("submit", function (e) {
+        e.preventDefault();
+        alert("Thank you for contacting us! We will get back to you soon.");
+        this.reset();
+      });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("appear");
+            }
+          });
+        },
+        { threshold: 0.2 }
+      );
+
+      document.querySelectorAll(".footer3, .animate").forEach((el) => {
+        observer.observe(el);
+      });
+    });
+  </script>
+
+</body>
+
+</html>
