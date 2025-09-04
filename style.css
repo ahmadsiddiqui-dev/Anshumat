@@ -384,7 +384,7 @@ ul {
   line-height: 1.1;
   overflow: hidden;
   transform: translateY(200px);
-  animation: slideUp 0.7s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  animation: slideUp 0.9s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
 .hero h3{
     font-size: 80px;
