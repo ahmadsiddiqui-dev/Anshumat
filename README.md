@@ -24,3 +24,6 @@ Technologies Used
 * JavaScript (ES6+) – interactivity, tab switch animations, scroll-based animations
 
 * Lenis – smooth scrolling integration
+
+
+![image alt](img1.jpg)
