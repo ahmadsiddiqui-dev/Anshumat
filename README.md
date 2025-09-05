@@ -26,10 +26,10 @@ Technologies Used
 * Lenis – smooth scrolling integration
 
 
-![image alt](SS1.jpg)
-![image alt](SS2.jpg)
-![image alt](SS3.jpg)
-![image alt](SS4.jpg)
-![image alt](SS5.jpg)
-![image alt](SS6.jpg)
-![image alt](SS7.jpg)
+![image alt](SS1.png)
+![image alt](SS2.png)
+![image alt](SS3.png)
+![image alt](SS4.png)
+![image alt](SS5.png)
+![image alt](SS6.png)
+![image alt](SS7.png)
